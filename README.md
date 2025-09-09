@@ -1,32 +1,34 @@
-📄 Landing Page 
-Descrição
+# Landing Page - Serviço
 
-Esta é uma landing page moderna e responsiva, desenvolvida para apresentar informações de forma clara e atrativa, captando leads e promovendo produtos ou serviços.
+## Descrição 
+
+Esta é uma <strong>landing page moderna e responsiva,</strong> desenvolvida para apresentar informações de forma clara e atrativa, captando leads e promovendo produtos ou serviços.
 
 A landing page foi construída com foco em design clean, experiência do usuário (UX) otimizada e compatibilidade com dispositivos móveis.
 
-✨ Funcionalidades
 
-Layout responsivo para desktop, tablet e mobile.
+##✨ Funcionalidades
 
-Seção de apresentação com destaque para título, subtítulo e chamada para ação (CTA).
+ - Layout responsivo para desktop, tablet e mobile.
 
-Formulário de contato/inscrição funcional (opcional).
+- Seção de apresentação com destaque para título, subtítulo e chamada para ação (CTA).
 
-Animações leves para melhorar a interação visual.
+- Formulário de contato/inscrição funcional (opcional).
 
-Integração com redes sociais ou links externos.
+- Animações leves para melhorar a interação visual.
 
-Uso de cores e tipografia modernas para reforçar a identidade visual.
+- Integração com redes sociais ou links externos.
 
-🛠️ Tecnologias Utilizadas
+- Uso de cores e tipografia modernas para reforçar a identidade visual.
 
-HTML5 – estrutura semântica do site.
+## 🧰 Tecnologias usadas
 
-CSS3 – estilização, responsividade e animações.
+- HTML5 – estrutura semântica do site.
 
-JavaScript – interatividade e validação de formulários.
+- CSS3 – estilização, responsividade e animações.
 
-Bootstrap (opcional) – framework para facilitar a criação de layouts responsivos.
+- JavaScript – interatividade e validação de formulários.
 
-Font Awesome / Icons – ícones para melhorar a estética.
+- Bootstrap (opcional) – framework para facilitar a criação de layouts responsivos.
+
+- Font Awesome / Icons – ícones para melhorar a estética.
