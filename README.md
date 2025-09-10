@@ -6,7 +6,7 @@ Esta é uma <strong>landing page moderna e responsiva,</strong> desenvolvida par
 
 A landing page foi construída com foco em design clean, experiência do usuário (UX) otimizada e compatibilidade com dispositivos móveis.
 
-
+<strong>Saiba mais:</strong> https://carinelimma.github.io/landingpage/
 ##✨ Funcionalidades
 
  - Layout responsivo para desktop, tablet e mobile.
