@@ -1,23 +1,16 @@
+window.dataLayer = window.dataLayer || [];
+function gtag(){ dataLayer.push(arguments); }
+gtag('js', new Date());
+gtag('config', 'G-9S4TMK6YGL');
 
-
-function animate() {
-  ctx.clearRect(0, 0, width, height);
-  particles.forEach(p => {
-    p.update();
-    p.draw();
+document.querySelectorAll('a[href^="#"]').forEach(link => {
+  link.addEventListener("click", function (e) {
+    const destino = document.querySelector(this.getAttribute("href"));
+    if (!destino) return;
+    e.preventDefault();
+    window.scrollTo({
+      top: destino.offsetTop - 60,
+      behavior: "smooth"
+    });
   });
-  connectParticles();
-  requestAnimationFrame(animate);
-}
-animate();
-
-// Mostrar seção clicada
-function mostrarSecao(id) {
-  document.querySelectorAll('.card-box').forEach(secao => {
-    secao.style.display = 'none';
-  });
-  const ativa = document.getElementById(id);
-  if (ativa) {
-    ativa.style.display = 'block';
-  }
-}
+});

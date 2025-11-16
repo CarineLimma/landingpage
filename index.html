@@ -1,126 +1,171 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>MW3.Studio - Conectando sua marca ao digital</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MW3.Studio - Conectando sua marca ao digita</title>
+
   <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
-  <meta name="description" content="MW3.Studio: Desenvolvimento de sites, landing pages e identidade visual. Transforme sua presença digital conosco.">
+  <link rel="stylesheet" href="style.css">
+
+  <meta name="description" content="MW3.Studio: Desenvolvimento de sites, landing pages e identidade visual. Transforme sua presença digital conosco." />
+  <meta name="keywords" content="MW3, studio, landing page, criação de sites, identidade visual, desenvolvimento web, Carine" />
+  <meta name="author" content="MW3.Studio" />
+  <link rel="canonical" href="https://carinelimma.github.io/landingpage/" />
+
   <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-  <meta name="robots" content="index, follow">
-  <meta name="author" content="MW3.Studio">
 
-  <!-- Open Graph -->
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="MW3.Studio - Conectando sua marca ao digital" />
-  <meta property="og:description" content="Criação de sites, branding, SEO e soluções digitais personalizadas." />
-  <meta property="og:url" content="https://www.seusite.com" />
-  <meta property="og:image" content="https://www.seusite.com/imagens/banner.jpg" />
-
-  <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-9S4TMK6YGL"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-9S4TMK6YGL');
-  </script>
-
-  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
-  <!-- Menu -->
-  <header class="header-menu">
-    <nav class="menu" aria-label="Menu principal">
-      <button onclick="mostrarSecao('inicio')" aria-label="Ir para Início">Início</button>
-      <button onclick="mostrarSecao('sobre')" aria-label="Ir para Sobre">Sobre</button>
-      <button onclick="mostrarSecao('servicos')" aria-label="Ir para Serviços">Serviços</button>
-      <button onclick="mostrarSecao('contato')" aria-label="Ir para Contato">Contato</button>
-    </nav>
+  <header class="header-menu" role="banner">
+    <div class="container header-flex">
+      <img src="imagens/marca.png" alt="Logo MW3.Studio" class="logo-top" />
+      <nav class="menu" aria-label="Menu principal">
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+    </div>
   </header>
 
-  <main class="main-content">
+  <main class="main-content container">
 
-    <!-- Hero -->
-    <section id="inicio" class="hero">
-      <img src="imagens/marca.png" alt="Logo da MW3.Studio" class="logo-hero">
-      <h1>Conectamos sua marca ao digital</h1>
-      <p>Sites, landing pages e identidade visual que geram resultados.</p>
-      <a href="#contato" class="btn-cta">Solicite um orçamento</a>
+       <section id="inicio" class="hero fade-in">
+      <div class="hero-text">
+        <h1>Transformamos sua presença digital</h1>
+        <p>Soluções corporativas em criação de sites, landing pages e branding.</p>
+        <a href="#contato" class="btn-cta">Solicitar Orçamento</a>
+      </div>
+      <img src="imagens/marca.png" class="hero-img" alt="MW3.Studio">
     </section>
 
-    <!-- Sobre -->
     <section id="sobre" class="card-box">
       <h2>Quem Somos</h2>
-      <p>Somos a MW3.Studio, uma empresa focada em transformar ideias em presença digital.
-         Criamos sites, landing pages e bio links com identidade, estratégia e design que conectam.
-         Nosso objetivo é entregar mais do que visual: entregamos experiência, valor e posicionamento digital.
-         Cada detalhe importa. Cada projeto é único. E cada cliente é parte do processo.
-      </p>
+      <p>A MW3.Studio nasceu com o propósito de transformar ideias em presença digital de verdade.
+    Com foco em criatividade, estratégia e tecnologia, meu trabalho é desenvolver soluções que facilitam a vida de quem empreende e ajudam negócios a crescerem online.
+    Ao longo da minha trajetória, construí experiência em criação de sites, landing pages profissionais, sistemas personalizados, automações, design funcional e otimização de conversão.
+    Cada projeto é desenvolvido com cuidado, atenção aos detalhes e foco total em resultados.
+    Acredito no atendimento humanizado, transparente e direto  porque cada cliente é único e cada ideia merece ser tratada com prioridade.
+    Na MW3 Studio, você encontra não só serviços, mas uma parceria real para evoluir no digital.
+    Se você busca profissionalismo, criatividade e alguém que realmente se dedica ao que faz, está no lugar certo.
+    Vamos juntos transformar suas ideias em algo grande. 💜</p>
     </section>
 
-    <!-- Serviços -->
     <section id="servicos" class="card-box">
       <h2>Nossos Serviços</h2>
+
       <div class="servicos-grid">
         <div class="servico">
           <i class="ri-window-line"></i>
           <h3>Sites Profissionais</h3>
-          <p>Sites modernos, rápidos e responsivos.</p>
+          <p>Sites institucionais, portfólios e e-commerces com performance e SEO on-page.</p>
         </div>
+
         <div class="servico">
           <i class="ri-links-line"></i>
           <h3>Landing Pages</h3>
-          <p>Páginas estratégicas para conversão.</p>
+          <p>Páginas focadas em conversão para campanhas, vendas ou captura de leads.</p>
         </div>
+
         <div class="servico">
           <i class="ri-brush-line"></i>
           <h3>Identidade Visual</h3>
-          <p>Design que traduz sua marca.</p>
+          <p>Logotipo, paleta de cores e materiais que traduzem sua marca ao mercado.</p>
         </div>
+
         <div class="servico">
           <i class="ri-mail-send-line"></i>
           <h3>Cartões Virtuais</h3>
-          <p>Networking prático e inovador.</p>
+          <p>Cartões digitais interativos para networking.</p>
         </div>
+
         <div class="servico">
-          <i class="ri-magic-line"></i>
-          <h3>Animações Exclusivas</h3>
-          <p>Destaque sua marca em datas especiais.</p>
+        <i class="ri-restaurant-line"></i>
+        <h3>Cardápios Digitais</h3>
+        <p>Cardápios interativos com QR Code, fotos, categorias, valores e integração com WhatsApp.</p>
+        </div>
+
+        <div class="servico">
+         <i class="ri-smartphone-line"></i>
+         <h3>Criação de Apps Responsivos</h3>
+          <p>Desenvolvimento de aplicativos modernos que funcionam perfeitamente em celular, tablet e desktop.</p>
+        </div>
+         <div class="servico">
+           <i class="ri-store-3-line"></i>
+           <h3>Criação de Loja Virtual</h3>
+           <p>Lojas completas com carrinho, pagamentos, controle de estoque e design profissional.</p>
+          </div>
+        </div>
+     </section>
+    <section id="depoimentos" class="card-box">
+      <h2>O que dizem sobre nós</h2>
+
+      <div class="depoimentos-grid">
+        <div class="depoimento">
+          <p>"Profissionalismo, comunicação clara e entrega rápida."</p>
+          <span>— Ana P.</span>
+        </div>
+
+        <div class="depoimento">
+          <p>"Nossa landing page aumentou as conversões em semanas."</p>
+          <span>— Marcos S.</span>
+        </div>
+
+        <div class="depoimento">
+          <p>"Design moderno e suporte eficiente após a entrega."</p>
+          <span>— Juliana R.</span>
         </div>
       </div>
     </section>
 
-    <!-- Contato -->
-    <section id="contato" class="card-box">
-      <h2>Fale Conosco</h2>
-      <form action="https://formspree.io/f/mw3studio" method="POST" class="form-contato">
-        <input type="text" name="nome" placeholder="Seu nome" required>
-        <input type="email" name="email" placeholder="Seu e-mail" required>
-        <textarea name="mensagem" placeholder="Escreva sua mensagem..." required></textarea>
-        <button type="submit">Enviar Mensagem</button>
-      </form>
+<section id="contato" class="card-box">
+  <h2>Fale conosco</h2>
 
-      <ul class="contatos">
-        <li><i class="ri-instagram-line"></i> <a href="https://www.instagram.com/mw3.studioo/" target="_blank">@mw3.studio</a></li>
-        <li><i class="ri-whatsapp-line"></i> <a href="https://wa.me/5547992765584" target="_blank">WhatsApp</a></li>
-        <li><i class="ri-mail-line"></i> carinesoaresdelima@gmail.com</li>
-        <li><i class="ri-phone-line"></i> (47) 99276-5584</li>
-      </ul>
+  <div class="contato-box">
+    <form action="https://getform.io/f/adrderla" method="POST" class="form-contato">
+
+      <input type="hidden" name="_subject" value="Nova mensagem recebida pelo site MW3.Studio">
+
+      <input type="text" name="Nome" placeholder="Seu nome" required />
+      <input type="tel" name="WhatsApp" placeholder="WhatsApp" required />
+      <input type="email" name="Email" placeholder="Seu e-mail" required />
+      <textarea name="Mensagem" rows="6" placeholder="Como posso te ajudar?" required></textarea>
+
+      <label class="checkbox">
+        <input type="checkbox" name="Privacidade" value="Aceito" required />
+        <span>Autorizo contato e confirmo que li a política de privacidade.</span>
+      </label>
+
+      <input type="hidden" name="_next" value="https://carinelimma.github.io/landingpage/sucesso.html">
+
+      <button type="submit">Enviar Mensagem</button>
+    </form>
+  </div>
+</section>
+        <aside class="contato-lateral">
+          <h3>Contato Rápido</h3>
+          <ul>
+            <li><i class="ri-instagram-line"></i> <a href="https://www.instagram.com/dev.carine_limma/">@mw3.studioo</a></li>
+            <li><i class="ri-whatsapp-line"></i> <a href="https://wa.me/5547992765584">(47) 99276-5584</a></li>
+          </ul>
+        </aside>
+      </div>
     </section>
 
   </main>
 
-  <!-- Footer -->
+  <a href="https://wa.me/5547992765584" class="botao-whats-fixo">
+    <i class="ri-whatsapp-line"></i>
+  </a>
+  
   <footer>
-    <div class="footer-social">
-      <a href="https://www.instagram.com/mw3.studioo/" target="_blank"><i class="ri-instagram-line"></i></a>
-      <a href="https://wa.me/5547992765584" target="_blank"><i class="ri-whatsapp-line"></i></a>
-      <a href="mailto:carinesoaresdelima@gmail.com"><i class="ri-mail-line"></i></a>
-    </div>
-    <p>&copy; 2025 MW3.Studio - Todos os direitos reservados.</p>
-    <p><a href="#">Política de Privacidade</a> | <a href="#">Termos de Uso</a></p>
+    <p>© 2025 MW3.Studio — Todos os direitos reservados.</p>
   </footer>
 
   <script src="script.js"></script>
